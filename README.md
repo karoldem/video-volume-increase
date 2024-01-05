@@ -10,4 +10,4 @@ avg = audio.dBFS
 if avg < target:
     audio = audio + (target - avg)
 audio.export(yt, format="mp4")
-audio.dBFS
+print(audio.dBFS)
